@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*titulo (pagina espicialidades)*/
+.title {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/*encierre del titulo*/
+.caja-azul2 {
+  background-color: rgb(4, 4, 201);
+  width: auto;
+  height: 1, 25rem;
+  margin: 3, 125rem 0, 625rem 0, 625rem 0, 625rem;
+  padding: 3, 125rem;
+  border: solid 5px rgb(0, 0, 0);
+}
+
+/*selección de especialidad (sin link)*/
+.especialidades {
+  cursor: pointer;
+}
+
+/*Caja de página Historia Clinica*/
+.caja-historiaclinica {
+  font-size: larger;
+  color: aliceblue;
+  background-color: rgb(4, 0, 255);
+  width: auto;
+  height: auto;
+  margin: 0, 625rem 3, 125rem 6, 25rem 1rem;
+  padding: 50px;
+  border: solid 5px rgb(3, 53, 153);
+  text-align: start;
+}
+
+/*caja de presentación del index*/
+.caja-azul {
+  color: #fff;
+  background-color: rgb(4, 4, 201);
+  width: auto;
+  height: auto;
+  margin: 6.25rem 1rem 6.25rem 1rem;
+  padding: 3, 125rem;
+  border: solid 5px black;
+}
+
+.presentacion {
+  text-align: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+/*Imagenes del index*/
+.doctorpng img {
+  width: 93.9rem;
+  height: 25rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.familiapng {
+  margin: 0px 0px 1, 25rem 0px;
+}
+.familiapng img {
+  width: 93.9rem;
+  height: 25rem;
+  display: block;
+  margin: 0, 625rem 0px 3, 125rem 0px;
+}
+
+/*Texto de relleno del index*/
+.text-center {
+  color: blue;
+  margin-bottom: 2rem;
+}
+
+/*media queries del index*/
+@media (min-width: 520px) {
+  .doctorpng img {
+    height: 28, 125rem;
+  }
+  .familiapng img {
+    height: 20vh;
+  }
+}
+@media (min-width: 768px) {
+  .doctorpng img {
+    height: 70vh;
+  }
+  .familiapng img {
+    height: 70vh;
+  }
+}
+@media (min-width: 1024px) {
+  .doctorpng img {
+    height: 80vh;
+  }
+}
+/*Cajas de pagina mis estudios*/
+.caja-estudios {
+  margin: 1rem 3, 125rem 6.25rem 1rem;
+  font-size: larger;
+  color: aliceblue;
+  background-color: rgb(4, 0, 255);
+  width: auto;
+  height: auto;
+  padding: 3, 125rem;
+  border: solid 5px rgb(3, 53, 153);
+}
+
+/*Padre Cajas de la página trurnos online */
+.padre-cajas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/*caja con obra social (pagina de trunos online)*/
+.caja-turnos {
+  color: #fff;
+  background-color: rgb(0, 94, 234);
+  width: 31, 25rem;
+  height: 11, 25rem;
+  margin: 3, 125rem 0, 625rem 0, 625rem 0, 625rem;
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem;
+  border: solid 5px rgb(0, 0, 0);
+}
+
+/*caja sin obra social (pagina de trunos online)*/
+.caja-turnos2 {
+  color: #fff;
+  background-color: rgb(0, 55, 137);
+  width: 31, 25rem;
+  height: 11, 25rem;
+  margin: 3, 125rem 0, 625rem 0, 625rem 0, 625rem;
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem;
+  border: solid 5px rgb(0, 0, 0);
+}
+
+/*general/all pages*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1 {
+  font-family: "Germania One", cursive;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: rgb(47, 47, 253);
+  padding: 0.625rem 0;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contacto {
+  width: 80px;
+  position: fixed;
+  bottom: 0;
+  right: 1.4rem;
+}
+
+.clinicapng img {
+  width: 93.9rem;
+  height: 45vh;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: blue;
+  height: 6.25rem;
+}
+footer a {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*media queries*/
+@media (min-width: 520px) {
+  .clinicapng img {
+    height: 50vh;
+  }
+}
+@media (min-width: 768px) {
+  .clinicapng img {
+    height: 70vh;
+  }
+}
+@media (min-width: 1024px) {
+  .clinicapng img {
+    height: 80vh;
+  }
+}
+/*font wheight pages*/
+.bolder-p {
+  font-weight: bolder;
+}
+
+.bolder-p-A {
+  font-weight: bolder;
+  margin: 1.5rem;
+}
+
+.margin {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

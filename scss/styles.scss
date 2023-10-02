@@ -1,0 +1,106 @@
+@import "especialidades";
+@import "historia-clinica";
+@import "index-html";
+@import "mis-estudios";
+@import "turnos-online";
+
+
+/*general/all pages*/
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.h1 {
+    font-family: 'Germania One', cursive;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: rgb(47, 47, 253);
+    padding: 0.625rem 0;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacto {
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 1.4rem;
+}
+
+.clinicapng{
+    img {
+        width: 93.90rem;
+        height: 45vh;
+        display: block;
+        margin: 0 auto;
+    }
+
+} 
+
+
+
+footer{
+    background-color: blue;
+    height: 6.25rem;
+        a{
+            color: #fff;
+        }
+}
+
+img {
+    max-width: 100%;
+}
+
+/*media queries*/
+
+@media (min-width: 520px) {
+    .clinicapng img {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .clinicapng img {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .clinicapng img {
+        height: 80vh;
+    }
+
+}
+
+/*font wheight pages*/
+
+.bolder-p{
+    font-weight: bolder;
+
+}
+
+.bolder-p-A{
+    font-weight: bolder;
+    margin: 1.5rem;
+}
+
+
+.margin{
+    margin: 15px;
+}

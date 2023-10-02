@@ -1,0 +1,28 @@
+
+
+
+
+/*titulo (pagina espicialidades)*/
+.title{
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+/*encierre del titulo*/
+.caja-azul2 {
+    background-color:rgb(4, 4, 201);
+    width: auto;
+    height: 1,25rem;  
+
+    margin: 3,125rem 0,625rem 0,625rem 0,625rem;
+
+    padding: 3,125rem;
+
+    border: solid 5px rgb(0, 0, 0)
+}
+
+/*selección de especialidad (sin link)*/
+.especialidades{
+    cursor: pointer;
+}

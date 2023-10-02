@@ -1,0 +1,82 @@
+
+
+
+/*caja de presentación del index*/
+
+.caja-azul {
+    color: #fff;
+
+    background-color:rgb(4, 4, 201);
+    width: auto;
+    height: auto;  
+
+    margin: 6.25rem 1rem 6.25rem 1rem;
+
+    padding: 3,125rem;
+
+    border: solid 5px black
+}
+
+.presentacion{
+    text-align: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+/*Imagenes del index*/
+
+.doctorpng {
+    img {
+        width: 93.90rem;
+        height: 25rem;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.familiapng{
+    margin: 0px 0px 1,25rem 0px;
+    img {
+        width: 93.90rem;
+        height: 25rem;
+        display: block;
+        margin: 0,625rem 0px 3,125rem 0px
+    }
+}
+
+
+/*Texto de relleno del index*/
+.text-center{
+    color: blue;
+    margin-bottom: 2rem;
+}
+
+/*media queries del index*/
+
+
+@media (min-width: 520px) {
+    .doctorpng img {
+        height: 28,125rem;
+    }
+
+    .familiapng img {
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .doctorpng img {
+        height: 70vh;
+    }
+
+    .familiapng img {
+        height: 70vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .doctorpng img {
+        height: 80vh;
+    }
+}
