@@ -25,4 +25,11 @@
 /*selección de especialidad (sin link)*/
 .especialidades{
     cursor: pointer;
+
+    li{
+        margin: 5rem;
+        &:hover{
+            color: blue;
+        }
+    }
 }

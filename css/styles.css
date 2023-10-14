@@ -19,6 +19,12 @@
 .especialidades {
   cursor: pointer;
 }
+.especialidades li {
+  margin: 5rem;
+}
+.especialidades li:hover {
+  color: blue;
+}
 
 /*Caja de página Historia Clinica*/
 .caja-historiaclinica {
@@ -28,9 +34,13 @@
   width: auto;
   height: auto;
   margin: 0, 625rem 3, 125rem 6, 25rem 1rem;
-  padding: 50px;
+  padding: 4rem;
   border: solid 5px rgb(3, 53, 153);
   text-align: start;
+}
+.caja-historiaclinica li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*caja de presentación del index*/
@@ -60,11 +70,11 @@
 
 .familiapng {
   margin: 0px 0px 1, 25rem 0px;
+  object-fit: contain;
 }
 .familiapng img {
   width: 93.9rem;
-  height: 25rem;
-  display: block;
+  height: 15rem;
   margin: 0, 625rem 0px 3, 125rem 0px;
 }
 
@@ -85,10 +95,10 @@
 }
 @media (min-width: 768px) {
   .doctorpng img {
-    height: 70vh;
+    height: 60vh;
   }
   .familiapng img {
-    height: 70vh;
+    height: 60vh;
   }
 }
 @media (min-width: 1024px) {
@@ -104,7 +114,7 @@
   background-color: rgb(4, 0, 255);
   width: auto;
   height: auto;
-  padding: 3, 125rem;
+  padding: 4rem;
   border: solid 5px rgb(3, 53, 153);
 }
 
@@ -125,7 +135,7 @@
   width: 31, 25rem;
   height: 11, 25rem;
   margin: 3, 125rem 0, 625rem 0, 625rem 0, 625rem;
-  padding: 1.25rem;
+  padding: 5rem;
   text-align: center;
   margin: 2rem;
   border: solid 5px rgb(0, 0, 0);
@@ -138,7 +148,7 @@
   width: 31, 25rem;
   height: 11, 25rem;
   margin: 3, 125rem 0, 625rem 0, 625rem 0, 625rem;
-  padding: 1.25rem;
+  padding: 5rem;
   text-align: center;
   margin: 2rem;
   border: solid 5px rgb(0, 0, 0);
@@ -154,12 +164,14 @@
 .h1 {
   font-family: "Germania One", cursive;
   color: #fff;
+  margin: 30px;
 }
 
 .nav-link {
   color: #fff;
   font-weight: bold;
   font-size: 1.2rem;
+  margin: 10px;
 }
 
 header {
@@ -171,6 +183,9 @@ header {
 
 a {
   text-decoration: none;
+}
+a:hover {
+  color: black;
 }
 
 .contacto {

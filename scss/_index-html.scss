@@ -31,16 +31,20 @@
         height: 25rem;
         display: block;
         margin: 0 auto;
+        
     }
 }
 
 .familiapng{
     margin: 0px 0px 1,25rem 0px;
+    object-fit: contain;
+
     img {
         width: 93.90rem;
-        height: 25rem;
-        display: block;
+        height: 15rem;
         margin: 0,625rem 0px 3,125rem 0px
+
+        
     }
 }
 
@@ -66,11 +70,11 @@
 
 @media (min-width: 768px) {
     .doctorpng img {
-        height: 70vh;
+        height: 60vh;
     }
 
     .familiapng img {
-        height: 70vh;
+        height: 60vh;
     }
 
 }
