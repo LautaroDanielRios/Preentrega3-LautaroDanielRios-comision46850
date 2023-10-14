@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 .especialidades li {
-  margin: 5rem;
+  margin-bottom: 1.8rem;
 }
 .especialidades li:hover {
   color: blue;
